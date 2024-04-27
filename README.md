@@ -106,12 +106,12 @@ END;
 GO
 
 ```
-## FLujo para hacer inserts o updates
+## Flujo para hacer inserts o updates
 Flujo de operaciones de inserción y actualización en un backend C#, podemos utilizar un enfoque típico que involucre capas de acceso a datos, lógica de negocio y presentación. EL flujo de datos simplificado que incluye operaciones CRUD (Create, Read, Update, Delete) centradas en las operaciones de insert y update:
 
 ![Diagrama API](https://github.com/jose-dev-gt/signature-tracking/blob/main/diagAPI.png)
 
-## Componentes del Flujo
+## Componentes del flujo
 1. API Controllers: Puntos de entrada para las operaciones HTTP.
 2. Services: Clases que contienen la lógica de negocio.
 3. Data Access Layer (DAL): Capa que maneja la comunicación directa con la base de datos.
