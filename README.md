@@ -2,7 +2,7 @@
 Seguimiento de firmas sobre un documento que pasa secuencialmente a un grupo de firmantes. Se define el modelo ER, procedimientos almacenados y los disparadores necesarios para manejar la secuencia y el estado de las firmas.
 
 ## Diagrama de secuencias de la solución 
-![Diagrama DFLOW](https://github.com/jmorejonm/signature-tracking/blob/main/diagSeq.png)
+![Diagrama DFLOW](https://github.com/jose-dev-gt/signature-tracking/blob/main/diagSeq.png)
 
 ## Modelo Entidad-Relación(ER)
 Entidades y Atributos
@@ -33,7 +33,7 @@ Entidades y Atributos
 * Un Documento tiene una SecuenciaFirma, que define el orden en que los firmantes deben firmar.
 
 ## Diagrama ER
-![Diagrama ER](https://github.com/jmorejonm/signature-tracking/blob/main/diagERSig.png)
+![Diagrama ER](https://github.com/jose-dev-gt/signature-tracking/blob/main/diagERSig.png)
 
 ## Procedimientos almacenados
 1. Crear un nuevo documento y establecer la secuencia inicial de firmas
@@ -109,7 +109,7 @@ GO
 ## FLujo para hacer inserts o updates
 Flujo de operaciones de inserción y actualización en un backend C#, podemos utilizar un enfoque típico que involucre capas de acceso a datos, lógica de negocio y presentación. EL flujo de datos simplificado que incluye operaciones CRUD (Create, Read, Update, Delete) centradas en las operaciones de insert y update:
 
-![Diagrama API](https://github.com/jmorejonm/signature-tracking/blob/main/diagAPI.png)
+![Diagrama API](https://github.com/jose-dev-gt/signature-tracking/blob/main/diagAPI.png)
 
 ## Componentes del Flujo
 1. API Controllers: Puntos de entrada para las operaciones HTTP.
